@@ -1,4 +1,4 @@
 # HackerRank
 My HackerRank solutions
 <br/>
-Start Date: 20.07.2021
+Start Date: 19.07.2021
