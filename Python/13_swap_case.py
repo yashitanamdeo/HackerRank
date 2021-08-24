@@ -1,3 +1,9 @@
+# using swapcase()
+def swap_case(s):
+    return s.swapcase()
+
+
+# without using swapcase()
 def swap_case(s):
     ans = ""
     for letter in s:
