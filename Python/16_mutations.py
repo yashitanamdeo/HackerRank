@@ -6,6 +6,12 @@ def mutate_string(string, position, character):
     string = "".join(lst)
     return string
 
+# Approach 2:
+    #slice the string and join it back
+def mutate_string(string, position, character):
+    string = string[:position] + character + string[position+1:]
+    return string
+
 if __name__ == '__main__':
     s = input()
     i, c = input().split()
